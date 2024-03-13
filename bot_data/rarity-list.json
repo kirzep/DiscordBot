@@ -1,0 +1,24 @@
+{
+  "names": [
+    {
+      "name": "Gray (Common)", 
+      "value": "rarity_common"
+    },
+    {
+      "name": "Yellow (Uncommon)", 
+      "value": "rarity_uncommon"
+    },
+    {
+      "name": "Green (Rare)", 
+      "value": "rarity_rare"
+    },
+    {
+      "name": "Purple (Very Rare)", 
+      "value": "rarity_veryrare"
+    },
+    {
+      "name": "Purple (Ultra Rare)", 
+      "value": "rarity_ultrarare"
+    }
+  ]
+}

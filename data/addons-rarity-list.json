@@ -1,0 +1,10 @@
+{
+  "names": [
+    "rarity_common",
+    "rarity_uncommon",
+    "rarity_rare",
+    "rarity_veryrare",
+    "rarity_ultrarare",
+    "null"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "names" : [
+    {
+      "name": "DBDLeague",
+      "value": "dbdleague"
+    },
+    {
+      "name": "Blast Pro Series DBD",
+      "value": "blastdbd"
+    },
+    {
+      "name": "Champions Of The Fog (COTF)",
+      "value": "cotf"
+    },
+    {
+      "name": "S2 Tournaments",
+      "value": "s2tournament"
+    },
+    {
+      "name": "DBD EuroAmerican Tournament",
+      "value": "euroamerican_tournament"
+    },
+    {
+      "name": "Outrun The Fog",
+      "value": "otf"
+    }
+  ]
+}

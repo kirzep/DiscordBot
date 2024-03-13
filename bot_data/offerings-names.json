@@ -1,0 +1,28 @@
+{
+  "names" : [
+    {
+      "name": "Shroud Of Binding (Purple)",
+      "value": "shroud_of_binding"
+    },
+    {
+      "name": "Vigo's Shroud (Yellow)",
+      "value": "vigos_shroud"
+    },
+    {
+      "name": "Annotated Blueprint (Hatch - Shack)",
+      "value": "annotated_blueprint"
+    },
+    {
+      "name": "Vigo's Blueprint (Hatch - Main)",
+      "value": "vigos_blueprint"
+    },
+    {
+      "name": "Bloodied Blueprint (Basement - Shack)",
+      "value": "bloodied_blueprint"
+    },
+    {
+      "name": "Torn Blueprint (Basement - Main)",
+      "value": "torn_blueprint"
+    }
+  ]
+}

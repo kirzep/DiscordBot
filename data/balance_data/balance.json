@@ -1,0 +1,151 @@
+{
+  "dbdleague": {
+    "general-balance": [
+      "Alert",
+      "Autodidact",
+      "Background Player",
+      "Blast Mine",
+      "Boil Over",
+      "Boon: Circle of Healing",
+      "Boon: Dark Theory",
+      "Boon: Exponential",
+      "Boon: Illumination",
+      "Boon: Shadow Step",
+      "Borrowed Time",
+      "Breakdown",
+      "Breakout",
+      "Buckle Up",
+      "Camaraderie",
+      "Champion of Light",
+      "Chemical Trap",
+      "Dark Sense",
+      "Deadline",
+      "Detective's Hunch",
+      "Dramaturgy",
+      "Fast Track",
+      "Fogwise",
+      "Friendly Competition",
+      "Hyperfocus",
+      "Kindred",
+      "Low Profile",
+      "Made for This",
+      "Object of Obsession",
+      "Off the Record",
+      "Overzealous",
+      "Plot Twist",
+      "Potential Energy",
+      "Power Struggle",
+      "Prove Thyself",
+      "Quick Gambit",
+      "Reactive Healing",
+      "Reassurance",
+      "Saboteur",
+      "Scene Partner",
+      "Small Game",
+      "Sole Survivor",
+      "Soul Guard",
+      "Spine Chill",
+      "Stake Out",
+      "Teamwork: Power of Two",
+      "Troubleshooter",
+      "Wake Up",
+      "Wiretap"
+    ],
+  
+    "tier-1": [],
+    "tier-2": [
+      "Botany Knowledge",
+      "Dead Hard",
+      "Deliverance",
+      "Overcome",
+      "Resurgence",
+      "Self-Care",
+      "Unbreakable"
+    ],
+  
+    "tier-3": [
+      "Botany Knowledge",
+      "Dead Hard",
+      "Decisive Strike",
+      "Deliverance",
+      "Inner Strength",
+      "Leader",
+      "Overcome",
+      "Resurgence",
+      "Self-Care",
+      "Unbreakable",
+      "We'll Make It",
+      "We're Gonna Live Forever"
+    ],
+  
+    "tier-4": [
+      "Botany Knowledge",
+      "Dead Hard",
+      "Decisive Strike",
+      "Deliverance",
+      "Desperate Measures",
+      "Inner Strength",
+      "Leader",
+      "Overcome",
+      "Resurgence",
+      "Second Wind",
+      "Self-Care",
+      "Sprint Burst",
+      "Unbreakable",
+      "We'll Make It",
+      "We're Gonna Live Forever"
+    ],
+  
+    "tier-5": [
+      "Adrenaline",
+      "Babysitter",
+      "Bite the Bullet",
+      "Botany Knowledge",
+      "Clairvoyance",
+      "Dead Hard",
+      "Decisive Strike",
+      "Deliverance",
+      "Desperate Measures",
+      "Inner Focus",
+      "Inner Strength",
+      "Leader",
+      "Left Behind",
+      "Lightweight",
+      "Overcome",
+      "Premonition",
+      "Resurgence",
+      "Second Wind",
+      "Self-Care",
+      "Smash Hit",
+      "Sprint Burst",
+      "Unbreakable",
+      "We'll Make It",
+      "We're Gonna Live Forever"
+    ],
+  
+    "cenobite": {
+      "tier": "tier-4",
+      "perks": [
+        "Fixated"
+      ],
+      "offerings": [
+        "shroud_of_binding",
+        "vigos_shroud",
+        "annotated_blueprint",
+        "bloodied_blueprint",
+        "null"
+      ],
+      "items": [
+        "flashlight_green",
+        "firecracker",
+        "null"
+      ],
+      "addons": {
+        "flashlightgreen": [
+          "rarity_common",
+          "null"
+        ]
+      }
+    }
+  }
+}

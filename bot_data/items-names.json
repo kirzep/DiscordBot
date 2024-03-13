@@ -1,0 +1,56 @@
+{
+  "names" : [
+    {
+      "name": "Firecracker",
+      "value": "firecracker"
+    },
+    {
+      "name": "Flashlight (Yellow)",
+      "value": "flashlight_yellow"
+    },
+    {
+      "name": "Flashlight (Green)",
+      "value": "flashlight_green"
+    },
+    {
+      "name": "Flashlight (Purple)",
+      "value": "flashlight_yellow"
+    },
+    {
+      "name": "Med-kit (Gray)",
+      "value": "medkit_gray"
+    },
+    {
+      "name": "Med-kit (Yellow)",
+      "value": "medkit_yellow"
+    },
+    {
+      "name": "Med-kit (Purple)",
+      "value": "medkit_purple"
+    },
+    {
+      "name": "Toolbox (Gray)",
+      "value": "toolbox_gray"
+    },
+    {
+      "name": "Toolbox (Yellow)",
+      "value": "toolbox_yellow"
+    },
+    {
+      "name": "Toolbox (Green, 32 charges)",
+      "value": "toolbox_green32"
+    },
+    {
+      "name": "Toolbox (Green, 16 charges)",
+      "value": "toolbox_green16"
+    },
+    {
+      "name": "Toolbox (Purple, 25 charges)",
+      "value": "toolbox_purple24"
+    },
+    {
+      "name": "Toolbox (Purple, 16 charges)",
+      "value": "toolbox_purple16"
+    }
+  ]
+}
