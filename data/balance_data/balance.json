@@ -146,6 +146,29 @@
           "null"
         ]
       }
+    },
+
+    "ghostface": {
+      "tier": "tier-5",
+      "perks": [
+        "Lithe"
+      ],
+      "offerings": [
+        "shroud_of_binding",
+        "vigos_shroud",
+        "null"
+      ],
+      "items": [
+        "flashlight_green",
+        "firecracker",
+        "null"
+      ],
+      "addons": {
+        "flashlightgreen": [
+          "rarity_common",
+          "null"
+        ]
+      }
     }
   }
 }
