@@ -99,16 +99,16 @@ const compare = (tournament, killer, perk1, perk2, perk3, perk4, offering, item,
       result = `${result}\n\nНекорректно введено имя киллера`
     }
     if (!formatedPerks.includes(formatedPerk1Input)) {
-      result = `${result}\n\nНекорректно введено название 1 перка: ${perk1}`
+      result = `${result}\n\nНекорректно введено название 1 перка: ${perk1.value}`
     }
     if (!formatedPerks.includes(formatedPerk2Input)) {
-      result = `${result}\n\nНекорректно введено название 2 перка: ${perk2}`
+      result = `${result}\n\nНекорректно введено название 2 перка: ${perk2.value}`
     }
     if (!formatedPerks.includes(formatedPerk3Input)) {
-      result = `${result}\n\nНекорректно введено название 3 перка: ${perk3}`
+      result = `${result}\n\nНекорректно введено название 3 перка: ${perk3.value}`
     }
     if (!formatedPerks.includes(formatedPerk4Input)) {
-      result = `${result}\n\nНекорректно введено название 4 перка: ${perk4}`
+      result = `${result}\n\nНекорректно введено название 4 перка: ${perk4.value}`
     }
     if (!offeringsValid) {
       result = `${result}\n\nНекорректно введено название подношения`
@@ -132,8 +132,21 @@ const compare = (tournament, killer, perk1, perk2, perk3, perk4, offering, item,
   } else {
     formatedaddonsRarityBalance = 'null';
   }
-  if (formatedGeneralBalance.includes(formatedPerk1Input || formatedPerk2Input || formatedPerk3Input || formatedPerk4Input) || formatedTierBalance.includes(formatedPerk1Input || formatedPerk2Input || formatedPerk3Input || formatedPerk4Input) || !formatedOfferingBalance.includes(formatedOfferingInput) || !formatedItemBalance.includes(formatedItemInput) || !formatedaddonsRarity.includes(formatedaddonsRarityInput)) {
+  const formatedKillerBans = formateArray(balance[formatedTournamentInput][formatedKillerInput]['perks'])
+  if (formatedGeneralBalance.includes(formatedPerk1Input || formatedPerk2Input || formatedPerk3Input || formatedPerk4Input) || formatedTierBalance.includes(formatedPerk1Input || formatedPerk2Input || formatedPerk3Input || formatedPerk4Input) || !formatedOfferingBalance.includes(formatedOfferingInput) || !formatedItemBalance.includes(formatedItemInput) || !formatedaddonsRarity.includes(formatedaddonsRarityInput) || formatedKillerBans.includes(formatedPerk1Input || formatedPerk2Input || formatedPerk3Input || formatedPerk4Input)) {
     result = '❌ В ВАШЕМ БИЛДЕ ЕСТЬ ОШИБКИ ❌'
+    if (formatedKillerBans.includes(formatedPerk1Input)) {
+      result = `${result}\n\n🔶${perk1.value} забанен для этого киллера`;
+    }
+    if (formatedKillerBans.includes(formatedPerk2Input)) {
+      result = `${result}\n\n🔶${perk2.value} забанен для этого киллера`;
+    }
+    if (formatedKillerBans.includes(formatedPerk3Input)) {
+      result = `${result}\n\n🔶${perk3.value} забанен для этого киллера`;
+    }
+    if (formatedKillerBans.includes(formatedPerk4Input)) {
+      result = `${result}\n\n🔶${perk4.value} забанен для этого киллера`;
+    }
     if (formatedGeneralBalance.includes(formatedPerk1Input)) {
       result = `${result}\n\n🔶${perk1.value} забанен по генералке`;
     }
