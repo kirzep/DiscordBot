@@ -19,10 +19,6 @@ client.on('messageCreate', (message) => {
 	if(message.author.bot) {
 		return;
 	}
-
-	if (message.content === 'ку') {
-		message.reply('ку');
-	}
 })
 
 client.on('interactionCreate', (interaction) => {

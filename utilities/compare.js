@@ -175,7 +175,48 @@ const compare = (tournament, killer, perk1, perk2, perk3, perk4, offering, item,
       result = `${result}\n\n🔮${offering.value} не находится в списке разрешенных подношений`;
     }
     if (!formatedItemBalance.includes(formatedItemInput)) {
-      result = `${result}\n\n🔦${item.value} не находится в списке разрешенных предметов`;
+      switch (item.value) {
+        case 'firecracker':
+          item.value = 'Хлопушка'
+          break;
+        case 'flashlight_yellow':
+        item.value = '🔦Жёлтый фонарь'
+        break;
+        case 'flashlight_green':
+        item.value = '🔦Зелёный фонарь'
+        break;
+        case 'flashlight_purple':
+        item.value = '🔦Фиолетовый фонарь'
+        break;
+        case 'medkit_gray':
+        item.value = '🚑Серая аптечка'
+        break;
+        case 'medkit_yellow':
+        item.value = '🚑Жёлтая аптечка'
+        break;
+        case 'medkit_purple':
+        item.value = '🚑Фиолетовая аптечка'
+        break;
+        case 'toolbox_gray':
+        item.value = '🧰Серый тулбокс'
+        break;
+        case 'toolbox_yellow':
+        item.value = '🧰Жёлтый тулбокс'
+        break;
+        case 'toolbox_green32':
+        item.value = '🧰Вместительный ящик с инструментами (32 заряда)'
+        break;
+        case 'toolbox_green16':
+        item.value = '🧰Инструменты механика (32 зарядов)'
+        break;
+        case 'toolbox_purple24':
+        item.value = '🧰Инструменты Алекса (24 заряда)'
+        break;
+        case 'toolbox_purple16':
+        item.value = '🧰Инструменты инженера (16 зарядов)'
+        break;
+      }
+      result = `${result}\n\n${item.value} не находится в списке разрешенных предметов`;
     }
     if (!formatedaddonsRarityBalance.includes(formatedaddonsRarityInput)) {
       switch (addonsRarity.value) {

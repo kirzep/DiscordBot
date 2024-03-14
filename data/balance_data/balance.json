@@ -148,6 +148,47 @@
       }
     },
 
+    "spirit": {
+      "tier": "tier-1",
+      "perks": [
+        "Bite the Bullet",
+        "Deliverance",
+        "Hope",
+        "Iron Will",
+        "Light-Footed",
+        "Lightweight",
+        "Lucky Break",
+        "Overzealous",
+        "Parental Guidance",
+        "Poised",
+        "Resurgence",
+        "Self-Preservation",
+        "Teamwork: Collective Stealth"
+      ],
+      "offerings": [
+        "shroud_of_binding",
+        "vigos_shroud",
+        "annotated_blueprint",
+        "bloodied_blueprint",
+        "null"
+      ],  
+      "items": [
+        "medkit_purple",
+        "firecracker",
+        "flashlight_green",
+        "null"
+      ],
+      "addons": {
+        "flashlightgreen": [
+          "rarity_common",
+          "null"
+        ],
+        "medkit_purple": [
+          "rarity_ultrarare"
+        ]
+      }
+    },
+
     "ghostface": {
       "tier": "tier-5",
       "perks": [
@@ -167,6 +208,67 @@
         "flashlightgreen": [
           "rarity_common",
           "null"
+        ]
+      }
+    },
+
+    "nurse": {
+      "tier": "tier-1",
+      "perks": [],
+      "offerings": [
+        "shroud_of_binding",
+        "vigos_shroud",
+        "annotated_blueprint",
+        "bloodied_blueprint",
+        "null"
+      ],
+      "items": [
+        "flashlight_green",
+        "firecracker",
+        "toolbox_yellow",
+        "medkit_purple",
+        "null"
+      ],
+      "addons": {
+        "flashlightgreen": [
+          "rarity_common",
+          "null"
+        ],
+        "toolbox_yellow": [
+          "rarity_common"
+        ],
+        "medkit_purple": [
+          "rarity_ultrarare"
+        ]
+      }
+    },
+
+    "blight": {
+      "tier": "tier-1",
+      "perks": [],
+      "offerings": [
+        "vigos_shroud",
+        "annotated_blueprint",
+        "bloodied_blueprint",
+        "null"
+      ],
+      "items": [
+        "flashlight_green",
+        "firecracker",
+        "toolbox_yellow",
+        "medkit_purple",
+        "null"
+      ],
+      "addons": {
+        "flashlightgreen": [
+          "rarity_common",
+          "null"
+        ],
+        "toolbox_yellow": [
+          "rarity_common"
+        ],
+        "medkit_purple": [
+          "rarity_ultrarare"
         ]
       }
     }
